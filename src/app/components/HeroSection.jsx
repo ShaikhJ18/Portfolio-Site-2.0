@@ -16,18 +16,18 @@ const HeroSection = () => {
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                'Jawad Shaikh',
+                                "Jawad Shaikh",
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'an Aspiring Software Engineer',
+                                "an Aspiring Software Engineer",
                                 1000,
-                                'a Problem Solver',
+                                "a Problem Solver",
                                 1000,
-                                'an Innovator',
+                                "an Innovator",
                                 1000
                             ]}
                             wrapper="span"
                             speed={50}
-                            style={{ fontSize: '1em', display: 'inline-block' }}
+                            style={{ fontSize: "1em", display: "inline-block" }}
                             repeat={Infinity}
                         />
                     </h1>
